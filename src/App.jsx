@@ -4,7 +4,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1 align="center">Welcome to React Router</h1>
       <nav>
         <Link to={"/"}>home</Link>
         <Link to={"/meista"}>meista</Link>

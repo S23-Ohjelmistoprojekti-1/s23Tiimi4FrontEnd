@@ -1,7 +1,7 @@
 export default function Meista() {
     return(
         <>
-        <p>ollaan mahtava koirakauppa</p>
+        <h1>Tietoa yrityksestämme:</h1>
         </>
     )
 }
