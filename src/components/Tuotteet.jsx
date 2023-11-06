@@ -19,15 +19,13 @@ useEffect(()=>{getVaatteet()}, [])
     ]
     const getVaatteet=()=>{
     fetch(rest_url)
-    .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
+    .then(Response=>Response.json())
     .then(responseData=> {
-        setVaatteet(responseData.vaatteet)
-    })}
+        setVaatteet(responseData)
+    })
+    .catch(error => {
+        console.error('Error fetching data:', error);
+})};
     return(
         <div className="ag-theme-material"
         style={{height: '700px', width: '70%', margin: 'auto'}}>
@@ -38,6 +36,6 @@ useEffect(()=>{getVaatteet()}, [])
                 
             </AgGridReact>
             </div>
-    )
+    );
     
 }
