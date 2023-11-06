@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <Link to={"/"}>home</Link>
-        <Link to={"/meista"}>meista</Link>
-        <Link to={"/tuotteet"}>tuotteet</Link>
+        <Link to={"/"}> KOTI </Link>
+        <Link to={"/meista"}> MEISTÄ </Link>
+        <Link to={"/tuotteet"}> TUOTTEET </Link>
       </nav>
       <Outlet />
     </div>
