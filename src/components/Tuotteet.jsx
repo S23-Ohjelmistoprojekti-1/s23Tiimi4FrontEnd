@@ -27,6 +27,8 @@ useEffect(()=>{getVaatteet()}, [])
         console.error('Error fetching data:', error);
 })};
     return(
+        <>
+        <h1>Tuotteet:</h1>
         <div className="ag-theme-material"
         style={{height: '700px', width: '70%', margin: 'auto'}}>
             <AgGridReact 
@@ -36,6 +38,7 @@ useEffect(()=>{getVaatteet()}, [])
                 
             </AgGridReact>
             </div>
+            </>
     );
     
 }
