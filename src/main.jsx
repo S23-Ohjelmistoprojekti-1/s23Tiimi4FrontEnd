@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home.jsx'
 import Meista from './components/Meista.jsx'
 import Tuotteet from './components/Tuotteet.jsx'
+import Rekisterointi from './components/Rekisterointi.jsx'
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "Tuotteet",
         element: <Tuotteet />
+      },
+      {
+        path: "Rekisterointi",
+        element: <Rekisterointi />
       }
       
     ]

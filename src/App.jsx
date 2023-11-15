@@ -8,6 +8,8 @@ function App() {
         <Link to={"/"}> KOTI </Link>
         <Link to={"/meista"}> MEISTÄ </Link>
         <Link to={"/tuotteet"}> TUOTTEET </Link>
+        <Link to={"/rekisterointi"}> REKISTERÖIDY </Link>
+
       </nav>
       <Outlet />
     </div>
