@@ -11,7 +11,7 @@ export default function Tuotteet() {
 
 
 
-    const rest_url = ''
+    const rest_url = 'http://localhost:8080/vaatteet'
     useEffect(() => { getVaatteet() }, [])
 
 
