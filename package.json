@@ -2,7 +2,6 @@
   "name": "dogfrontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://s23-ohjelmistoprojekti-1.github.io/s23Tiimi4FrontEnd",
   "type": "module",
   "scripts": {
     "dev": "vite",

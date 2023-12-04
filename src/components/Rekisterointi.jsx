@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Snackbar } from '@mui/material';
+import { useState } from 'react';
+//import { Snackbar } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 export default function Rekisterointi() {
