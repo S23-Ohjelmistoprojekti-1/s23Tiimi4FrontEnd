@@ -11,7 +11,7 @@ export default function Tuotteet() {
 
 
 
-    const rest_url = 'https:/dogbackends2023.onrender.com/vaatteet'
+    const rest_url = 'http://localhost:8080/vaatteet'
     useEffect(() => { getVaatteet() }, [])
 
 

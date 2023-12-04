@@ -23,7 +23,7 @@ export default function Rekisterointi() {
     e.preventDefault();
   
     try {
-      const response = await fetch('httphttps:/dogbackends2023.onrender.com/asiakkaat', {
+      const response = await fetch('http://localhost:8080/asiakkaat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
