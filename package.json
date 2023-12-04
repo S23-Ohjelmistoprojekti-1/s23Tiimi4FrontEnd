@@ -2,14 +2,13 @@
   "name": "dogfrontend",
   "private": true,
   "version": "0.0.0",
-  "homepage":"https://s23-ohjelmistoprojekti-1.github.io/s23Tiimi4FrontEnd" ,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
