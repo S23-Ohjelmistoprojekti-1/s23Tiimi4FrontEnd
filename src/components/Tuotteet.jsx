@@ -16,6 +16,7 @@ export default function Tuotteet() {
 
 
     const columns = [
+        { field: 'nimi' },
         { field: 'tyyppi' },
         { field: 'vari' },
         { field: 'koko' },
@@ -77,7 +78,7 @@ export default function Tuotteet() {
             </div>
 
             <div className="ag-theme-material"
-                style={{ height: '700px', width: '70%', margin: 'auto' }}>
+                style={{ height: '700px', width: '80%', margin: 'auto' }}>
                 <AgGridReact
                     rowData={filteredVaatteet}
                     columnDefs={columns}
