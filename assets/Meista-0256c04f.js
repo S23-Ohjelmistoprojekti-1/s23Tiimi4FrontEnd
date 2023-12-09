@@ -1,1 +1,0 @@
-import{j as e}from"./index-a9ae67ce.js";function i(){return e.jsxs(e.Fragment,{children:[e.jsx("h1",{children:"Tietoa yrityksestämme:"}),e.jsx("h2",{children:"HauHau Shop"}),e.jsx("h3",{children:"Omistajat: Omppu Koskinen & Rane Mäkinen "}),e.jsx("h4",{children:"Since: 2019"}),e.jsx("h5",{children:"Y-7539"})]})}export{i as default};
